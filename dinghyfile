@@ -29,7 +29,7 @@
         }
       ]
     }
-  },
+  }, 
   "pipelines": [ 
     {
       "application": "helloworldapp",
