@@ -30,7 +30,7 @@
       ]
     }
   },
-  "pipelines": [
+  "pipelines": [ 
     {
       "application": "helloworldapp",
       "name": "my-pipeline-name",
