@@ -23,26 +23,26 @@
           "apiVersion": "apps/v1",
           "kind": "Deployment",
           "metadata": {
-            "name": "nginx"
+            "name": "nginxx"
           },
           "spec": {
             "replicas": 2,
             "selector": {
               "matchLabels": {
-                "app": "nginx"
+                "app": "nginxx"
               }
             },
             "template": {
               "metadata": {
                 "labels": {
-                  "app": "nginx"
+                  "app": "nginxx"
                 }
               },
               "spec": {
                 "containers": [
                   {
                     "image": "nginx:1.14.2",
-                    "name": "nginx",
+                    "name": "nginxx",
                     "ports": [
                       {
                         "containerPort": 80
