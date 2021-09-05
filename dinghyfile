@@ -71,7 +71,7 @@
           1
         ]
       },
-      "sendNotifications": true,
+      "sendNotifications": true, 
       "skipExpressionEvaluation": false,
       "source": "artifact",
       "trafficManagement": {
